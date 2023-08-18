@@ -1,10 +1,11 @@
-遇到問題
+###遇到問題
 
 問題一
 
 ****@SpringBootTest Canot resolve symbol ‘SpringBootTest‘****
 
 ****@SpringBoot註解不存在****
+
 
 解決方法
 
@@ -14,6 +15,8 @@
 
 3.查看目錄 —>**測試例子寫在了/src/main/java/目錄下，所以無法引用spring-boot-starter-test**
 
+
+
 問題二
 
 **Caused by: java.lang.IllegalArgumentException: Property 'sqlSessionFactory' or 'sqlSessionTemplate' are required**
@@ -22,7 +25,10 @@
 
 升級版本—>**使用 Spring Boot 3 版本整合 MyBatis 時，要把 mybatis-spring-boot-starter 也升級**
 
-資料庫 表
+
+
+
+建立資料庫 表
 
 ```sql
 CREATE TABLE `food` (

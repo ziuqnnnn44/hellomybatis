@@ -11,4 +11,4 @@ Wrapper 的作用就是用於定義各種各樣的條件（where）。所以不�
         food.forEach(System.out::println);
     }
 ```
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0f474a0a-941e-4ec3-93c0-6b78bcb65d4a/Untitled.png)
+<img width="1227" alt="image" src="https://github.com/ziuqnnnn44/hellomybatis/assets/66659394/8077bf65-b18c-4739-9c76-9a56c3c5d5d1">
